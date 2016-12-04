@@ -1,0 +1,5 @@
+! test user rules
+@@sina.com
+@@163.com
+@@qq.com
+@@oschina.net
