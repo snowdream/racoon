@@ -12,21 +12,21 @@
 
 ## 使用
 ### 基本使用 － 使用PAC
-1. 启动
+1.启动
 ```
 cd racoon && npm start
 ```
 
-2. 获取PAC本地网址
+2.获取PAC本地网址
 ```
 http://localhost:3001/proxy.pac
 ```
 
-3. 配置PAC
+3.配置PAC
 ![配置PAC](https://static.dingtalk.com/media/lALOjUKAU80Cds0FLg_1326_630.png)
 
 ### 高级使用 － 生成PAC
-1. 安装genpac
+1.安装genpac
 ```
 # 安装
 $ pip install genpac
@@ -39,10 +39,10 @@ $ pip install --upgrade https://github.com/JinnLynn/genpac/archive/master.zip
 # 卸载
 $ pip uninstall genpac
 ```
-2. 编辑自定义规则       
+2.编辑自定义规则
 在项目目录genpac下，编辑两个规则文件user-rules-direct 和 user-rules-proxy，前者是指定不走代理的网址，后者是指定走代理的网址。
 
-3. 生成pac文件
+3.生成pac文件
 ```
 ./gen.sh
 ```
