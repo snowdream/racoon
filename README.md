@@ -40,6 +40,7 @@ $ pip install --upgrade https://github.com/JinnLynn/genpac/archive/master.zip
 $ pip uninstall genpac
 ```
 2.编辑自定义规则
+
 在项目目录genpac下，编辑两个规则文件user-rules-direct 和 user-rules-proxy，前者是指定不走代理的网址，后者是指定走代理的网址。
 
 3.生成pac文件
